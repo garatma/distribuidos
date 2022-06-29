@@ -1,0 +1,57 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-c",
+      "-I/usr/include/tirpc",
+      "suma_arreglos_client.c"
+    ],
+    "directory": "/home/manuel/Syncthing/Files/uns/2020/#1/distribuidos/proyectos/Proyecto 1/Fuentes/3/remoto",
+    "file": "/home/manuel/Syncthing/Files/uns/2020/#1/distribuidos/proyectos/Proyecto 1/Fuentes/3/remoto/suma_arreglos_client.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-c",
+      "-I/usr/include/tirpc",
+      "suma_arreglos_clnt.c"
+    ],
+    "directory": "/home/manuel/Syncthing/Files/uns/2020/#1/distribuidos/proyectos/Proyecto 1/Fuentes/3/remoto",
+    "file": "/home/manuel/Syncthing/Files/uns/2020/#1/distribuidos/proyectos/Proyecto 1/Fuentes/3/remoto/suma_arreglos_clnt.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-c",
+      "-I/usr/include/tirpc",
+      "suma_arreglos_xdr.c"
+    ],
+    "directory": "/home/manuel/Syncthing/Files/uns/2020/#1/distribuidos/proyectos/Proyecto 1/Fuentes/3/remoto",
+    "file": "/home/manuel/Syncthing/Files/uns/2020/#1/distribuidos/proyectos/Proyecto 1/Fuentes/3/remoto/suma_arreglos_xdr.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-c",
+      "-I/usr/include/tirpc",
+      "suma_arreglos_server.c"
+    ],
+    "directory": "/home/manuel/Syncthing/Files/uns/2020/#1/distribuidos/proyectos/Proyecto 1/Fuentes/3/remoto",
+    "file": "/home/manuel/Syncthing/Files/uns/2020/#1/distribuidos/proyectos/Proyecto 1/Fuentes/3/remoto/suma_arreglos_server.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-c",
+      "-I/usr/include/tirpc",
+      "suma_arreglos_svc.c"
+    ],
+    "directory": "/home/manuel/Syncthing/Files/uns/2020/#1/distribuidos/proyectos/Proyecto 1/Fuentes/3/remoto",
+    "file": "/home/manuel/Syncthing/Files/uns/2020/#1/distribuidos/proyectos/Proyecto 1/Fuentes/3/remoto/suma_arreglos_svc.c"
+  }
+]

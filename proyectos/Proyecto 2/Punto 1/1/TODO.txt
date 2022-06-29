@@ -1,0 +1,5 @@
+Bonus:
+	1. reiniciar partida
+	2. qué pasa si un cliente se cae?
+	3. servidos
+	4. tachar cuando quieras

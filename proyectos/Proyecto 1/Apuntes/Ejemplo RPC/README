@@ -1,0 +1,33 @@
+link: https://www.youtube.com/watch?v=HbBxO5RXNhU
+
+mini-tuto:
+
+1. programar add.x con el protococlo de datos y funciones remotas
+
+2. rpcgen -a -C add.x
+
+3. editar:
+	add_client.c
+	add_server.c 
+	con las funcionalidades de cada uno
+
+4. make -f Makefile.add
+
+5. ejecutar en una mv:
+	./add_server
+	dejar corriendo
+
+6. ejecutar en otra mv:
+	./add_client [IP de la otra máquina (servidor)]
+
+para no tener que ingresar las IP, sino un nombre de host:
+	en rasp1:
+		editar /etc/hosts y agregar:
+			[IP de rasp2]	rasp2
+
+	en rasp2:
+		editar /etc/hosts y agregar:
+			[IP de rasp1]	rasp1
+
+así, se puede hacer, si rasp1 es el servidor y rasp2 es el cliente:
+	./add_client rasp1

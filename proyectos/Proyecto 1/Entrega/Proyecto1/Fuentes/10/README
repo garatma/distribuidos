@@ -1,0 +1,28 @@
+**------------------------- BIENVENIDO---------------------------------**
+
+Para poder ejecutar este ejercicio, se necesita el JDK. Si bien Raspbian ya viene
+con este paquete pre-instalado, se recomienda verificar que esté instalado:
+
+   sudo apt install openjdk-11-jdk 
+
+Pasos para la ejecución del Servidor:
+    1.  Ejecutar por terminal el makefile ---> ~$ make
+    2.  Se crearán los archivos .class tanto para el servidor como para el cliente a partir del paso 1
+    3.  Por terminal ejecutar ---> ~$ java MonoCliente.Server <PORT> 
+    4.  Para el paso 3 se recomienda un puerto >10000 
+
+Pasos para la ejecución del Cliente
+    5.  Con el paso 1 el .class del cliente ya esta listo
+    7.  Por terminal ejecutar ---> ~$ java MonoCliente.Cliente <IP> <PORT> 
+    8.  IP y PORT son del servidor (localhost si está en la misma máquina)
+
+Para limpiar los archivos generados realice ---> ~$ make clean
+
+OBSERVACIÓN: Se realizan los mismos pasos para el directorio MultiCliente, cambiando el path de ejecución por java MultiCliente.Server <PORT> /MultiCliente.Cliente <IP> <PORT>
+
+
+
+**---------------------------------------------------------------------**
+
+
+    

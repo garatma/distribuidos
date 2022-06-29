@@ -1,0 +1,37 @@
+
+todos los tiempos se obtienen del promedio de cinco medidas
+
+1. 
+    - 172.8 μs
+    Linux Mint :150μs
+    Arch: 116.4μs
+
+    ¿cuántos procesos se pueden crear? ver "man fork" la parte de errores.
+
+2. 10000 iteraciones
+    - fork:
+        a) local: 337.2 μs; Mint : 231μs; Arch: 681.4us
+        b) remoto: 3078 μs ;Mint : 389μs; Arch: 899.2us
+    - system: 
+        a) local: 3403.4 μs ; Mint 4289 μs; Arch: 8216.4
+        b) remoto: 8690.8 μs ;Mint : 4355.2μs; Arch: 4936us
+
+    ¿por qué? porque system() implica crear un proceso que ejecuta un shell que ejecuta la imagen ejecutable.
+
+3.
+    a) 491.6 μs ; Mint 308.8μs; Arch: 488.2us
+    b) 1264.8 μs. Distribución: Raspbian. Arquitectura: x86_64
+    c) 1736.8 μs. Distribución: Linux Mint. Arquitectura: i686   ; Mint  1954μs Arch: 955.6
+
+4.
+    - 95.6 μs
+    - 144 μs
+
+5.
+
+                       | sum (10+10) | res (10-10) | mul (10*10) | div (10/10) | dec-bin (10) | bin-hex (10)
+-----------------------|-------------|-------------|-------------|-------------|--------------|--------------
+ipc                    | 46.4 μs     | 53.8 μs     | 33.6 μs     | 42.2 μs     | 33.6 μs      | 35.2 μs
+rpc misma computadora  | 237 μs      | 250.2 μs    | 253.6 μs    | 277.8 μs    | 213 μs       | 261.4 μs
+rpc misma arquitectura | 505.2 μs    | 519.8 μs    | 483.4 μs    | 504.8 μs    | 628 μs       | 493.4 μs
+rpc otra arquitectura  | 706.8 μs    | 832.2 μs    | 550.2 μs    | 708.8 μs    | 685.4 μs     | 628.8 μs

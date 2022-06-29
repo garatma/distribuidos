@@ -1,0 +1,6 @@
+program CREARPROCESOPROG{
+	version CREARPROCESOVERS{
+		int TAREA(int)=1;
+	}=1;
+} =0x20000000;
+

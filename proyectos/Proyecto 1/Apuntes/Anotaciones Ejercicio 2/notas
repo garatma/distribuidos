@@ -1,0 +1,16 @@
+
+local:
+	padre: medir tiempo
+	padre: fork
+	hijo: execv
+	padre: medir tiempo
+
+------------------------------
+
+local:
+	medir tiempo
+	medir tiempo
+
+remoto:
+	padre: fork
+	hijo: execv
